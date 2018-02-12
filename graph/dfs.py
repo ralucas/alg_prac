@@ -1,3 +1,9 @@
+"""
+    Depth First Search
+    Current implementation expects a Graph
+    as a dictionary with adjacent list, e.g.
+    G = {'A': ['B', 'D'], 'B': ['C'], 'C': ['D', 'A']}
+"""
 class DFS:
     def __init__(self, G):
         self.clock = 0
